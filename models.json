@@ -1,0 +1,37 @@
+{
+  "_comment": "The models you can pick from (choose any 2). 'kind' is 'seq2seq' (Whisper, Moonshine) or 'ctc' (Wav2Vec2).",
+  "whisper-base.en": {
+    "label": "Whisper base.en",
+    "hf_id": "openai/whisper-base.en",
+    "kind": "seq2seq",
+    "developer": "OpenAI",
+    "params_m": 74,
+    "train_hours": 680000,
+    "architecture": "Transformer encoder-decoder (sequence-to-sequence)",
+    "licence": "Apache 2.0"
+  },
+  "wav2vec2-base-960h": {
+    "label": "Wav2Vec2 Base (960h)",
+    "hf_id": "facebook/wav2vec2-base-960h",
+    "kind": "ctc",
+    "developer": "Meta AI",
+    "params_m": 94.4,
+    "train_hours": 960,
+    "architecture": "CNN feature encoder + Transformer + CTC head",
+    "licence": "Apache 2.0"
+  },
+  "moonshine-base": {
+    "label": "Moonshine base",
+    "hf_id": "UsefulSensors/moonshine-base",
+    "kind": "seq2seq",
+    "developer": "Useful Sensors",
+    "params_m": 61,
+    "train_hours": 200000,
+    "architecture": "Transformer encoder-decoder (sequence-to-sequence)",
+    "licence": "MIT"
+  },
+  "_defaults": [
+    "whisper-base.en",
+    "wav2vec2-base-960h"
+  ]
+}

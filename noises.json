@@ -1,0 +1,120 @@
+{
+  "_comment": "Noise bank. 'file' is created by prepare_noises.py. 'clips' lists the original source clips for attribution; fill in the screaming entries by hand.",
+  "rain": {
+    "name": "Rain",
+    "file": "noises/rain.wav",
+    "source": "ESC-50, 'rain' class (K. J. Piczak, 2015), clips originally from Freesound",
+    "url": "https://github.com/karolpiczak/ESC-50",
+    "licence": "CC BY-NC 3.0",
+    "character": "Steady, broadband",
+    "clips": [
+      {
+        "file": "1-17367-A-10.wav",
+        "freesound_id": "17367",
+        "url": "https://freesound.org/s/17367/"
+      },
+      {
+        "file": "1-21189-A-10.wav",
+        "freesound_id": "21189",
+        "url": "https://freesound.org/s/21189/"
+      },
+      {
+        "file": "1-26222-A-10.wav",
+        "freesound_id": "26222",
+        "url": "https://freesound.org/s/26222/"
+      },
+      {
+        "file": "1-29561-A-10.wav",
+        "freesound_id": "29561",
+        "url": "https://freesound.org/s/29561/"
+      },
+      {
+        "file": "1-50060-A-10.wav",
+        "freesound_id": "50060",
+        "url": "https://freesound.org/s/50060/"
+      },
+      {
+        "file": "1-54958-A-10.wav",
+        "freesound_id": "54958",
+        "url": "https://freesound.org/s/54958/"
+      }
+    ]
+  },
+  "traffic": {
+    "name": "Traffic",
+    "file": "noises/traffic.wav",
+    "source": "DEMAND STRAFFIC, busy traffic intersection, channel 1 (Thiemann, Ito & Vincent, 2013)",
+    "url": "https://zenodo.org/records/1227121",
+    "licence": "CC BY-SA 3.0",
+    "character": "Steady with bursts",
+    "clips": [
+      {
+        "file": "STRAFFIC/ch01.wav",
+        "url": "https://zenodo.org/records/1227121"
+      }
+    ]
+  },
+  "screaming": {
+    "name": "Screaming",
+    "file": "noises/screaming.wav",
+    "source": "Freesound clips (CC0 or CC BY), chosen by hand. List each clip in 'clips' with its author and licence.",
+    "url": "https://freesound.org",
+    "licence": "Per clip (CC0 / CC BY)",
+    "character": "Loud, sudden bursts",
+    "clips": []
+  },
+  "babble": {
+    "name": "Cafe babble",
+    "file": "noises/babble.wav",
+    "source": "DEMAND PRESTO, university restaurant at lunchtime, channel 1 (Thiemann, Ito & Vincent, 2013)",
+    "url": "https://zenodo.org/records/1227121",
+    "licence": "CC BY-SA 3.0",
+    "character": "Speech-like, likely the hardest",
+    "clips": [
+      {
+        "file": "PRESTO/ch01.wav",
+        "url": "https://zenodo.org/records/1227121"
+      }
+    ]
+  },
+  "engine": {
+    "name": "Engine",
+    "file": "noises/engine.wav",
+    "source": "ESC-50, 'engine' class (K. J. Piczak, 2015), clips originally from Freesound",
+    "url": "https://github.com/karolpiczak/ESC-50",
+    "licence": "CC BY-NC 3.0",
+    "character": "Steady, low frequency",
+    "clips": [
+      {
+        "file": "1-18527-A-44.wav",
+        "freesound_id": "18527",
+        "url": "https://freesound.org/s/18527/"
+      },
+      {
+        "file": "1-18527-B-44.wav",
+        "freesound_id": "18527",
+        "url": "https://freesound.org/s/18527/"
+      },
+      {
+        "file": "1-22882-A-44.wav",
+        "freesound_id": "22882",
+        "url": "https://freesound.org/s/22882/"
+      },
+      {
+        "file": "1-50454-A-44.wav",
+        "freesound_id": "50454",
+        "url": "https://freesound.org/s/50454/"
+      },
+      {
+        "file": "1-50455-A-44.wav",
+        "freesound_id": "50455",
+        "url": "https://freesound.org/s/50455/"
+      },
+      {
+        "file": "1-50661-A-44.wav",
+        "freesound_id": "50661",
+        "url": "https://freesound.org/s/50661/"
+      }
+    ]
+  }
+}

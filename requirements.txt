@@ -1,0 +1,16 @@
+# CPU-only torch is smaller; on a laptop install it first with:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+transformers
+gradio>=4
+librosa
+soundfile
+numpy
+noisereduce
+jiwer>=3
+matplotlib
+pandas
+tabulate
+pyarrow
+huggingface_hub
+requests
